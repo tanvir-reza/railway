@@ -1,0 +1,96 @@
+body.font-lato {
+  font: 400 16px "Lato", sans-serif !important;
+}
+.header {
+  box-shadow: 0px 4px 8px rgb(0 0 0 / 6%) !important;
+  z-index: 999 !important;
+  height: 90px !important;
+  background: white !important;
+}
+.header-logo {
+  display: flex;
+}
+.header-logo a img {
+  width: 60px !important;
+}
+.header-logo-text {
+  font-family: revert;
+  font-weight: bold;
+  margin: 5px;
+  font-size: 24px;
+  color: #da924e;
+}
+nav ul li a {
+  margin-right: 20px !important;
+  color: #1d1d10 !important;
+}
+nav ul li .active {
+  border-bottom: 2px solid #0f2444 !important;
+}
+nav ul li a:hover {
+  border-bottom: 2px solid #0f2444 !important;
+}
+.section2 {
+  height: 500px;
+  padding: 10px;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+.banner-img img {
+  width: 100% !important;
+  border-radius: 10px;
+}
+.banner-img{
+    z-index: 1;
+    overflow: hidden;
+}
+.banner{
+    position: relative;
+}
+.bold{
+    font-weight: 700;
+    color: #006747;
+}
+.banner-text{
+    position: absolute;
+    text-align: inherit;
+    z-index: 2;
+    width: auto;
+    margin-top: 40px;
+   
+    margin-left: 321px;
+}
+.slogan{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.payment{
+    display: flex;
+
+}
+.payment .money img{
+   
+    width: 28px;
+    margin-left: 36px;
+}
+label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 12px;
+}
+.section-3 img{
+    width: 52%;
+    margin-left: 42px;
+}
+.clearfix::after{
+    content: "";
+   
+    display: block;
+     clear: both;
+    
+}
